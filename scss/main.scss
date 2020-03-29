@@ -1,0 +1,17 @@
+// config
+@import "../scss/config/mixin.scss";
+@import "../scss/config/variables.scss";
+
+// layout
+@import "../scss/layout/fonts.scss";
+@import "../scss/layout/base.scss";
+@import "../scss/layout/adjustmen.scss";
+
+// section
+@import "../scss/sections/hero";
+@import "../scss/sections/best";
+@import "../scss/sections/burgers.scss";
+@import "../scss/sections/team.scss";
+@import "../scss/sections/menu.scss";
+@import "../scss/sections/reviews.scss";
+@import "../scss/sections/form.scss";

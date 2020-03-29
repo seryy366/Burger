@@ -1,0 +1,51 @@
+.reviews {
+    background: #000;
+}
+.reviews_list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews_item {
+    width: 25%;
+    height: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: grayscale(100%);
+    &:hover {
+        .reviews_hover {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }   
+}
+.reviews_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($dark, .7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity: 0;
+    transition: .3s;
+    transform: scale(.7);
+}
+.reviews_hover-conteiner {
+    width: 80%;
+}
+.reviews_title {
+    font-family: "Gagalin";
+    font-size: rem(14px);
+    font-weight: normal;
+    color: #fff;
+    margin-bottom:rem(30px) ;    
+}
+.reviews_text {
+    margin-bottom: rem(15px);
+}
